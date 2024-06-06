@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		4627D8FD2C120F0E00987BAD /* UsableCodeTemplatesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4627D8FC2C120F0E00987BAD /* UsableCodeTemplatesApp.swift */; };
-		4627D8FF2C120F0E00987BAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4627D8FE2C120F0E00987BAD /* ContentView.swift */; };
+		4627D8FF2C120F0E00987BAD /* ScrollViewWithTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4627D8FE2C120F0E00987BAD /* ScrollViewWithTransitionView.swift */; };
 		4627D9012C120F1000987BAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4627D9002C120F1000987BAD /* Assets.xcassets */; };
 		4627D9042C120F1000987BAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4627D9032C120F1000987BAD /* Preview Assets.xcassets */; };
+		463F6A272C1225C0005B932C /* ScrollViewCaptureItemChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463F6A262C1225C0005B932C /* ScrollViewCaptureItemChange.swift */; };
+		463F6A2A2C12354E005B932C /* dummy1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463F6A292C12354E005B932C /* dummy1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4627D8F92C120F0E00987BAD /* UsableCodeTemplates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsableCodeTemplates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4627D8FC2C120F0E00987BAD /* UsableCodeTemplatesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsableCodeTemplatesApp.swift; sourceTree = "<group>"; };
-		4627D8FE2C120F0E00987BAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4627D8FE2C120F0E00987BAD /* ScrollViewWithTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewWithTransitionView.swift; sourceTree = "<group>"; };
 		4627D9002C120F1000987BAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4627D9032C120F1000987BAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		463F6A262C1225C0005B932C /* ScrollViewCaptureItemChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewCaptureItemChange.swift; sourceTree = "<group>"; };
+		463F6A292C12354E005B932C /* dummy1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummy1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,9 @@
 		4627D8FB2C120F0E00987BAD /* UsableCodeTemplates */ = {
 			isa = PBXGroup;
 			children = (
-				4627D8FC2C120F0E00987BAD /* UsableCodeTemplatesApp.swift */,
-				4627D8FE2C120F0E00987BAD /* ContentView.swift */,
+				463F6A282C12351F005B932C /* app */,
+				4627D8FE2C120F0E00987BAD /* ScrollViewWithTransitionView.swift */,
+				463F6A262C1225C0005B932C /* ScrollViewCaptureItemChange.swift */,
 				4627D9002C120F1000987BAD /* Assets.xcassets */,
 				4627D9022C120F1000987BAD /* Preview Content */,
 			);
@@ -65,6 +70,15 @@
 				4627D9032C120F1000987BAD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		463F6A282C12351F005B932C /* app */ = {
+			isa = PBXGroup;
+			children = (
+				463F6A292C12354E005B932C /* dummy1.swift */,
+				4627D8FC2C120F0E00987BAD /* UsableCodeTemplatesApp.swift */,
+			);
+			path = app;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4627D8FF2C120F0E00987BAD /* ContentView.swift in Sources */,
+				463F6A2A2C12354E005B932C /* dummy1.swift in Sources */,
+				4627D8FF2C120F0E00987BAD /* ScrollViewWithTransitionView.swift in Sources */,
+				463F6A272C1225C0005B932C /* ScrollViewCaptureItemChange.swift in Sources */,
 				4627D8FD2C120F0E00987BAD /* UsableCodeTemplatesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
