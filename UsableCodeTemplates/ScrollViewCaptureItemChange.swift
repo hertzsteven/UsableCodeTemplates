@@ -70,7 +70,7 @@ extension ScrollViewCaptureItemChange {
   fileprivate func secondViewFromFunction() -> some View {
     
     Image(systemName: "globe")
-      .imageScale(.large)
+      .imageScale(.small)
       .foregroundStyle(.tint)
     
   }
