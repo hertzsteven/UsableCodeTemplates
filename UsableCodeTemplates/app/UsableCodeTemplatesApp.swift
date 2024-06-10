@@ -11,7 +11,7 @@ import SwiftUI
 struct UsableCodeTemplatesApp: App {
     var body: some Scene {
         WindowGroup {
-            EmptyView()
+            NavigationBarBackgroundMOd()
         }
     }
 }
