@@ -14,6 +14,7 @@
 		463F6A272C1225C0005B932C /* ScrollViewCaptureItemChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463F6A262C1225C0005B932C /* ScrollViewCaptureItemChange.swift */; };
 		463F6A2A2C12354E005B932C /* TestContinuousAnimationStartStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463F6A292C12354E005B932C /* TestContinuousAnimationStartStop.swift */; };
 		463F6A2C2C129963005B932C /* NavigationBarBackgroundMOd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463F6A2B2C129963005B932C /* NavigationBarBackgroundMOd.swift */; };
+		466A1FCC2C1743D400CBAA07 /* ToolbarItemRefactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A1FCB2C1743D300CBAA07 /* ToolbarItemRefactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		463F6A262C1225C0005B932C /* ScrollViewCaptureItemChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewCaptureItemChange.swift; sourceTree = "<group>"; };
 		463F6A292C12354E005B932C /* TestContinuousAnimationStartStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContinuousAnimationStartStop.swift; sourceTree = "<group>"; };
 		463F6A2B2C129963005B932C /* NavigationBarBackgroundMOd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationBarBackgroundMOd.swift; path = UsableCodeTemplates/NavigationBarBackgroundMOd.swift; sourceTree = SOURCE_ROOT; };
+		466A1FCB2C1743D300CBAA07 /* ToolbarItemRefactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarItemRefactor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				4627D8FE2C120F0E00987BAD /* ScrollViewWithTransitionView.swift */,
 				463F6A262C1225C0005B932C /* ScrollViewCaptureItemChange.swift */,
 				463F6A2B2C129963005B932C /* NavigationBarBackgroundMOd.swift */,
+				466A1FCB2C1743D300CBAA07 /* ToolbarItemRefactor.swift */,
 				463F6A292C12354E005B932C /* TestContinuousAnimationStartStop.swift */,
 				4627D9002C120F1000987BAD /* Assets.xcassets */,
 				4627D9022C120F1000987BAD /* Preview Content */,
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				466A1FCC2C1743D400CBAA07 /* ToolbarItemRefactor.swift in Sources */,
 				463F6A2A2C12354E005B932C /* TestContinuousAnimationStartStop.swift in Sources */,
 				4627D8FF2C120F0E00987BAD /* ScrollViewWithTransitionView.swift in Sources */,
 				463F6A272C1225C0005B932C /* ScrollViewCaptureItemChange.swift in Sources */,
