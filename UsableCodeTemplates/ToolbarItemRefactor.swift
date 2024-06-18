@@ -11,6 +11,7 @@ struct ToolbarItemRefactor: View {
     var body: some View {
         NavigationStack {
             Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+                .fontColorSizePad(size: 48, weight: .semibold)
                 .toolbar {
                     doToolbarTrailing()
                 }
@@ -19,10 +20,12 @@ struct ToolbarItemRefactor: View {
 }
 
 extension ToolbarItemRefactor {
+    
     @ToolbarContentBuilder
     func doToolbarTrailing() -> some ToolbarContent {
         ToolbarItem(placement: .topBarTrailing) { Text("Cancel")}
     }
+    
 }
 
 #Preview {
