@@ -15,6 +15,7 @@
 		463F6A2A2C12354E005B932C /* TestContinuousAnimationStartStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463F6A292C12354E005B932C /* TestContinuousAnimationStartStop.swift */; };
 		463F6A2C2C129963005B932C /* NavigationBarBackgroundMOd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463F6A2B2C129963005B932C /* NavigationBarBackgroundMOd.swift */; };
 		466A1FCC2C1743D400CBAA07 /* ToolbarItemRefactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466A1FCB2C1743D300CBAA07 /* ToolbarItemRefactor.swift */; };
+		46C3D1532C2B354500092DA4 /* FloatingButtonBottomWithZstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C3D1522C2B354500092DA4 /* FloatingButtonBottomWithZstack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		463F6A292C12354E005B932C /* TestContinuousAnimationStartStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContinuousAnimationStartStop.swift; sourceTree = "<group>"; };
 		463F6A2B2C129963005B932C /* NavigationBarBackgroundMOd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationBarBackgroundMOd.swift; path = UsableCodeTemplates/NavigationBarBackgroundMOd.swift; sourceTree = SOURCE_ROOT; };
 		466A1FCB2C1743D300CBAA07 /* ToolbarItemRefactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarItemRefactor.swift; sourceTree = "<group>"; };
+		46C3D1522C2B354500092DA4 /* FloatingButtonBottomWithZstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButtonBottomWithZstack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				463F6A282C12351F005B932C /* app */,
 				4627D8FE2C120F0E00987BAD /* ScrollViewWithTransitionView.swift */,
 				463F6A262C1225C0005B932C /* ScrollViewCaptureItemChange.swift */,
+				46C3D1522C2B354500092DA4 /* FloatingButtonBottomWithZstack.swift */,
 				463F6A2B2C129963005B932C /* NavigationBarBackgroundMOd.swift */,
 				466A1FCB2C1743D300CBAA07 /* ToolbarItemRefactor.swift */,
 				463F6A292C12354E005B932C /* TestContinuousAnimationStartStop.swift */,
@@ -159,6 +162,7 @@
 			files = (
 				466A1FCC2C1743D400CBAA07 /* ToolbarItemRefactor.swift in Sources */,
 				463F6A2A2C12354E005B932C /* TestContinuousAnimationStartStop.swift in Sources */,
+				46C3D1532C2B354500092DA4 /* FloatingButtonBottomWithZstack.swift in Sources */,
 				4627D8FF2C120F0E00987BAD /* ScrollViewWithTransitionView.swift in Sources */,
 				463F6A272C1225C0005B932C /* ScrollViewCaptureItemChange.swift in Sources */,
 				463F6A2C2C129963005B932C /* NavigationBarBackgroundMOd.swift in Sources */,
